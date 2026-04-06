@@ -16,6 +16,9 @@
 
 Download the datasets into ``dataset`` folder, like ``./dataset/Factory/testing/frames/01/``
 
+## Model
+* Our model can be obtained at the following link: (https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)
+
 ## Evaluation
 * Check your dataset_type (Factory or Corridors)
 * Test the model with our pre-trained model and memory items
