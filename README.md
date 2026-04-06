@@ -17,7 +17,7 @@
 Download the datasets into ``dataset`` folder, like ``./dataset/Factory/testing/frames/01/``
 
 ## Model
-* Our model can be obtained at the following link: (https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)
+* Our model can be obtained at the following link: ([Google Drive]https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)or([Baidu Cloud]https://pan.baidu.com/s/17JyZae8RnMUPxq4jv3xRbg?pwd=49bw)
 
 ## Evaluation
 * Check your dataset_type (Factory or Corridors)
