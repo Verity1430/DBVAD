@@ -17,6 +17,17 @@ If you use this repository, please cite this code release and, when available, t
 * tqdm 4.66.4
 * fvcore 0.1.5.post20221221
 
+## Environment Configuration
+```bash
+conda create -n mnad python=3.9 -y
+conda activate mnad
+
+pip install --index-url https://download.pytorch.org/whl/cu121 \
+  torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2
+
+pip install -r requirements.txt
+```
+
 ## Datasets
 This repository supports Factory and Corridors datasets.
 * Factory [[dataset](https://zenodo.org/records/7035788)]
@@ -45,17 +56,6 @@ dataset/
 ## Model
 * Our model can be obtained at the following link: ([Google Drive]https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)
 * or([Baidu Cloud]https://pan.baidu.com/s/17JyZae8RnMUPxq4jv3xRbg?pwd=49bw)
-
-## Environment Configuration
-```bash
-conda create -n mnad python=3.9 -y
-conda activate mnad
-
-pip install --index-url https://download.pytorch.org/whl/cu121 \
-  torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2
-
-pip install -r requirements.txt
-```
 
 ## Train
 ```bash
