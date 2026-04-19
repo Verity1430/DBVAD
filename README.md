@@ -18,27 +18,12 @@ If you use this repository, please cite this code release and, when available, t
 * fvcore 0.1.5.post20221221
 
 ## Datasets
+This repository supports Factory and Corridors datasets.
 * Factory [[dataset](https://zenodo.org/records/7035788)]
 * Corridors [[dataset](https://zenodo.org/records/7035788)]
-
-Download the datasets into ``dataset`` folder, like ``./dataset/Factory/testing/frames/01/``
-
-## Model
-* Our model can be obtained at the following link: ([Google Drive]https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)
-* or([Baidu Cloud]https://pan.baidu.com/s/17JyZae8RnMUPxq4jv3xRbg?pwd=49bw)
-
-## Environment Configuration
+After obtaining the datasets, preprocess the data as image files (refer to below).
 ```bash
-conda create -n mnad python=3.9 -y
-conda activate mnad
-
-pip install --index-url https://download.pytorch.org/whl/cu121 \
-  torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2
-
-pip install -r requirements.txt
-```
-## Dataset structure
-```bash
+# Dataset preparation example:
 dataset/
 ├── Factory/
 │   ├── training/
@@ -54,6 +39,22 @@ dataset/
     └── testing/
         └── frames/
             └── 01/
+```
+
+
+## Model
+* Our model can be obtained at the following link: ([Google Drive]https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)
+* or([Baidu Cloud]https://pan.baidu.com/s/17JyZae8RnMUPxq4jv3xRbg?pwd=49bw)
+
+## Environment Configuration
+```bash
+conda create -n mnad python=3.9 -y
+conda activate mnad
+
+pip install --index-url https://download.pytorch.org/whl/cu121 \
+  torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2
+
+pip install -r requirements.txt
 ```
 
 ## Train
