@@ -1,4 +1,10 @@
-# The complete code will be publicly released after the manuscript is accepted. Below is our training model and test code for your reference.
+## Related manuscript
+
+This repository contains the code, dependencies, and usage instructions associated with the manuscript currently submitted to *The Visual Computer*.
+
+This code is directly related to the submitted manuscript and is provided to support transparency, reproducibility, and evaluation of the reported results.
+
+If you use this repository, please cite this code release and, when available, the corresponding article in *The Visual Computer*.
 
 ## Dependencies
 * Python 3.9.23
