@@ -15,6 +15,7 @@ If you use this repository, please cite this code release and, when available, t
 * opencv-python-headless 4.8.1.78
 * matplotlib 3.8.0
 * tqdm 4.66.4
+* fvcore 0.1.5.post20221221
 
 ## Datasets
 * Factory [[dataset](https://zenodo.org/records/7035788)]
