@@ -57,9 +57,12 @@ dataset/
 
 ## Pretrained Weights and Feature-Bank Resources
 
-The following links provide the pretrained model weights and auxiliary resources required to reproduce our pipeline, including the files used for feature-bank construction.
-* Our model and auxiliary resources can be obtained at the following link: ([Google Drive]https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)
-* or([Baidu Cloud]https://pan.baidu.com/s/17JyZae8RnMUPxq4jv3xRbg?pwd=49bw)
+The following links provide the pretrained model weights and auxiliary resources required to reproduce our pipeline.
+These resources include:
+- pretrained model weights,
+- the local visual backbone `vit_small_patch14_dinov2.lvd142m`.
+* ([Google Drive]https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)
+* ([Baidu Cloud]https://pan.baidu.com/s/17JyZae8RnMUPxq4jv3xRbg?pwd=49bw)
 
 ## Train
 This section describes how to train the prediction model and prepare the feature bank used in our framework.
