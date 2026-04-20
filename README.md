@@ -55,8 +55,10 @@ dataset/
 ```
 
 
-## Model
-* Our model can be obtained at the following link: ([Google Drive]https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)
+## Pretrained Weights and Feature-Bank Resources
+
+The following links provide the pretrained model weights and auxiliary resources required to reproduce our pipeline, including the files used for feature-bank construction.
+* Our model and auxiliary resources can be obtained at the following link: ([Google Drive]https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)
 * or([Baidu Cloud]https://pan.baidu.com/s/17JyZae8RnMUPxq4jv3xRbg?pwd=49bw)
 
 ## Train
