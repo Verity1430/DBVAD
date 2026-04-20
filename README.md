@@ -119,6 +119,7 @@ Before evaluation, please check that:
 - the model checkpoint exists,
 - the feature bank file exists,
 - the output directory is writable.
+
 The following commands will generate prediction results and save high-score frames for further inspection.
 ```bash
 python Evaluate.py --gpus 0 \
