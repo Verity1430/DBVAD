@@ -61,6 +61,7 @@ The following links provide the pretrained model weights and auxiliary resources
 These resources include:
 - pretrained model weights,
 - the local visual backbone `vit_small_patch14_dinov2.lvd142m`.
+
 * ([Google Drive]https://drive.google.com/drive/folders/1NEdYzWAVl4IauO-SWxxtBJQHOW_SkApE?usp=sharing)
 * ([Baidu Cloud]https://pan.baidu.com/s/17JyZae8RnMUPxq4jv3xRbg?pwd=49bw)
 
