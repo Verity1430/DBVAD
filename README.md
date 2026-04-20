@@ -58,6 +58,16 @@ dataset/
 * or([Baidu Cloud]https://pan.baidu.com/s/17JyZae8RnMUPxq4jv3xRbg?pwd=49bw)
 
 ## Train
+This section describes how to train the prediction model and prepare the feature bank used in our framework.
+
+Before running the commands below, please make sure that:
+- the datasets have been organized under the `./dataset` directory as described above,
+- all dependencies have been installed correctly,
+- the selected GPU is available.
+
+### 1. Train the model
+First, train the prediction model on the target dataset.  
+The trained checkpoints and logs will be saved in the directory specified by `--exp_dir`.
 ```bash
 # Factory
 python Train.py --gpus 0 \
@@ -74,6 +84,9 @@ python Train.py --gpus 0 \
   --exp_dir log \
   --epochs 60
 ```
+### 2. Build the local feature bank
+After training, run the following commands to generate the corresponding bank file for each dataset.
+These files will be used later during evaluation and localization.
 ```bash
 python Bank.py \
   --gpus 0 \
@@ -98,8 +111,14 @@ python Bank.py \
 ```
 
 ## Evaluation
-* Check your dataset_type (Factory or Corridors)
-* Test the model with our pre-trained model and memory items
+This section describes how to evaluate the trained model using the pretrained weights and the generated bank files.
+
+Before evaluation, please check that:
+- the dataset path is correct,
+- the model checkpoint exists,
+- the feature bank file exists,
+- the output directory is writable.
+The following commands will generate prediction results and save high-score frames for further inspection.
 ```bash
 python Evaluate.py --gpus 0 \
   --dataset_type Factory \
@@ -127,4 +146,4 @@ python Evaluate.py --gpus 0 \
   --max_save_per_video 20000 \
   --save_dir ./exp/Corridors/pred/highframes
 ```
-
+After evaluation, the generated results can be used for qualitative inspection and further comparison with the reported results in the manuscript.
