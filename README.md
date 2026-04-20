@@ -1,3 +1,4 @@
+# Dual-Branch Collaborative Framework for Robust Visual Anomaly Detection in Mobile Robot Inspection
 ## Related manuscript
 
 This repository contains the code, dependencies, and usage instructions associated with the manuscript currently submitted to *The Visual Computer*.
