@@ -32,6 +32,7 @@ pip install -r requirements.txt
 This repository supports Factory and Corridors datasets.
 * Factory [[dataset](https://zenodo.org/records/7035788)]
 * Corridors [[dataset](https://zenodo.org/records/7035788)]
+
 After obtaining the datasets, preprocess the data as image files (refer to below).
 ```bash
 # Dataset preparation example:
