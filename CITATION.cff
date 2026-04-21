@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Dual-Branch Collaborative Framework for Robust Visual Anomaly Detection in Mobile Robot Inspection"
+type: software
+authors:
+  - family-names: "Wu"
+    given-names: "Min"
+    affiliation: "Dalian Jiaotong University"
+repository-code: "https://github.com/Verity1430/DBVAD"
+url: "https://github.com/Verity1430/DBVAD"
+abstract: "Code, instructions, and supplementary resources for the manuscript submitted to The Visual Computer."
+keywords:
+  - visual anomaly detection
+  - mobile robot inspection
+  - anomaly localization
+  - reproducibility
+license: "MIT"
+version: "v1.0.0"
+date-released: 2026-04-21
+# Add this after Zenodo generates your DOI:
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.xxxxxxx
