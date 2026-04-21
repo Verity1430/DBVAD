@@ -14,7 +14,7 @@ keywords:
   - mobile robot inspection
   - anomaly localization
   - reproducibility
-license: "MIT"
+license: "Apache-2.0"
 version: "v1.0.0"
 date-released: 2026-04-21
 # Add this after Zenodo generates your DOI:
