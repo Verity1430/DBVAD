@@ -1,9 +1,16 @@
 # Dual-Branch Collaborative Framework for Robust Visual Anomaly Detection in Mobile Robot Inspection
+
+[![DOI](https://zenodo.org/badge/1197232473.svg)](https://doi.org/10.5281/zenodo.19678521)
+
 ## Related manuscript
 
 This repository contains the code, dependencies, and usage instructions associated with the manuscript currently submitted to *The Visual Computer*.
 
 This code is directly related to the submitted manuscript and is provided to support transparency, reproducibility, and evaluation of the reported results.
+
+**Zenodo archive**
+- Latest archived record: [10.5281/zenodo.19678521](https://doi.org/10.5281/zenodo.19678521)
+- This release (v1.0.0): [10.5281/zenodo.19678522](https://doi.org/10.5281/zenodo.19678522)
 
 If you use this repository, please cite this code release and, when available, the corresponding article in *The Visual Computer*.
 
