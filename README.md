@@ -8,6 +8,8 @@ This repository contains the code, dependencies, and usage instructions associat
 
 This code is directly related to the submitted manuscript and is provided to support transparency, reproducibility, and evaluation of the reported results.
 
+Our preprint 'Dual-Branch Collaborative Framework for Robust Visual Anomaly Detection in Mobile Robot Perception' has been published on Research Square. The DOI is: 10.21203/rs.3.rs-9502784/v1
+
 **Zenodo archive**
 - Latest archived record: [10.5281/zenodo.19678521](https://doi.org/10.5281/zenodo.19678521)
 - This release (v1.0.0): [10.5281/zenodo.19678522](https://doi.org/10.5281/zenodo.19678522)
