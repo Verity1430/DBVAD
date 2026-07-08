@@ -14,6 +14,7 @@ Our preprint 'Dual-Branch Collaborative Framework for Robust Visual Anomaly Dete
 - Latest archived record: [10.5281/zenodo.19678521](https://doi.org/10.5281/zenodo.19678521)
 - This release (v1.0.0): [10.5281/zenodo.19678522](https://doi.org/10.5281/zenodo.19678522)
 
+paper results correspond to release v1.0.0
 If you use this repository, please cite this code release and, when available, the corresponding article in *The Visual Computer*.
 
 ## Dependencies
@@ -166,4 +167,5 @@ python Evaluate.py --gpus 0 \
   --max_save_per_video 20000 \
   --save_dir ./exp/Corridors/pred/highframes
 ```
+random seed used in the global branch is 2025; local feature-bank sampling can be repeated using different seeds
 After evaluation, the generated results can be used for qualitative inspection and further comparison with the reported results in the manuscript.
